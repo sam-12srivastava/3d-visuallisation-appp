@@ -1,0 +1,163 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; */
+  /* font-size: large; */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #3b3a3a;
+  color: white;
+  display: grid;
+  grid-template-columns: 30% 60%;
+  column-gap: 10%;
+  padding: 0 5%;
+}
+
+/* Array Input Styles */
+nav .array-inputs {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-content: center;
+  padding: 5% 0;
+}
+
+/* Input Styles */
+nav .array-inputs input {
+  padding: 5% 0;
+}
+
+/* Button Style for Generating New Array */
+nav .array-inputs #a_generate {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 4% 0 0 20%;
+  cursor: pointer;
+}
+
+/* Heading and Algorithm Buttons */
+nav .header_right {
+  display: flex;
+  flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+  font-size:xx-large;
+  padding: 3% 4%;
+}
+
+/* Algorithm Buttons Layout */
+nav .header_right .algos {
+  display: grid;
+  /* grid-template-columns: repeat(6, 1fr); */
+  /* grid-template-columns: 60% 40%; */
+  /* justify-content: center; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content:space-evenly; */
+  align-items: center;
+  /* gap: 5px; */
+  /* padding: 2% 0; */
+  /* padding-left: 2px;
+  padding-right: 2px; */
+ padding-top: 5px;
+ padding-bottom: 5px;
+}
+
+/* Button Styles */
+nav .header_right .algos button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size:medium;
+  /* padding: 5% 0; */
+  /* padding-left: 1px;
+  padding-right: 1px; */
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+nav .header_right .algos button:hover {
+ background-color: blue;
+}
+
+/* Button State Styles */
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+nav .header_right .algos .butt_selected:hover {
+  background-color: white;
+}
+
+nav .header_right .algos .butt_unselected:hover {
+  background-color: blue;
+}
+
+/* Section Layout for Time/Space Complexity */
+section {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+}
+
+section .Complexity_Containers {
+  margin-top: 20%;
+}
+
+/* Time/Space Complexity Styling */
+section .Complexity_Containers .Pair_Definitions {
+  margin-top: 20%;
+}
+
+section .Complexity_Containers .Pair_Definitions p {
+  display: inline;
+}
+
+section .Complexity_Containers .Pair_Definitions .Sub_Heading {
+  font-size: medium;
+  text-transform: none;
+}
+
+/* Info Containers for Time and Space Complexity */
+section #Info_Cont1, section #Info_Cont2 {
+  padding: 20% 10%;
+}
+
+section h3 {
+  text-decoration: underline;
+}
+
+/* Array Visualization Container */
+section #array_container {
+  display: flex;
+  width: 100%;
+  height: 70vh;
+}
+
+/* Hide Class */
+.hide {
+  display: none;
+}
+
+/* Responsive Design (Optional Media Queries) */
+/*
+@media (max-width: 480px) {
+    // For Mobile Devices
+}
+
+@media (min-width: 481px) and (max-width: 1250px) {
+    // For Tablets
+}
+
+@media (min-width: 1251px) {
+    // For Laptops and larger screens
+}
+*/
+
+/*# sourceMappingURL=style.css.map */
